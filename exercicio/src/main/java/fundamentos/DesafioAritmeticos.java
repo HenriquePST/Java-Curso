@@ -1,5 +1,7 @@
 package fundamentos;
 
+// desafio Arimetico.
+
 public class DesafioAritmeticos {
     public static void main(String[] args) {
 
@@ -16,6 +18,6 @@ public class DesafioAritmeticos {
     double inferior = Math.pow(10,3);
 
     double resultado = superior * inferior;
-        System.out.println("resultado:" +resultado);
+        System.out.println("Resultado:" +resultado);
     }
 }
