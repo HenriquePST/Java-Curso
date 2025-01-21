@@ -13,8 +13,8 @@ public class Relacionais {
         System.out.println(30 <= 7); // Menor ou igual: Verifica se 30 é menor ou igual a 7
         System.out.println(30 != 7); // Diferente: Verifica se 30 é diferente de 7
 
-        double nota 7.3;
-
+        double nota = 7.8;
+        
         boolean bomComportamento = true;
         boolean passouPorMedia = nota >=7;
 
