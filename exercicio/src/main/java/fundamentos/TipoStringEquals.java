@@ -19,6 +19,7 @@ public class TipoStringEquals {
         String senha1 = senha.nextLine();
         System.out.println(Senha.equals(senha1));
 
+
         // == nao compara o conteudo, ele compara a referencia dos objetos
 
         String x = "123456";
@@ -26,5 +27,11 @@ public class TipoStringEquals {
 
         System.out.println(x == y);
 
+        Scanner entrada = new Scanner(System.in);
+        String entrada1 = entrada.nextLine();
+        System.out.println("2" == entrada1.trim()); // tira os espaços em branco
+        System.out.println("2".equals(entrada1.trim()));
+
+        entrada.close();
     }
 }
